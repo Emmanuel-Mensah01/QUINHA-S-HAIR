@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Heart, GraduationCap, Star } from "lucide-react"
+import { Heart, Sparkles, Globe2 } from "lucide-react"
 
 export function About() {
   return (
@@ -29,29 +29,32 @@ export function About() {
             Meet the Founder
           </span>
           <h2 className="mt-3 text-balance font-heading text-3xl font-bold text-foreground sm:text-4xl">
-            Hi, I&apos;m Laurinda Francesquinha Amorin
+            Hello, I&apos;m Laurinda Francesquinha Amorin
           </h2>
           <div className="mt-6 space-y-4 text-pretty leading-relaxed text-muted-foreground">
             <p>
-              I&apos;m a passionate entrepreneur with a love for beauty,
-              creativity, and helping people feel confident through
-              hairstyling. Quinha&apos;s Hair Galaxy was created to give clients
-              quality braiding, excellent customer care, and trusted hair care
-              products &mdash; all in one place.
+              My passion for beauty goes beyond creating beautiful
+              hairstyles &mdash; it&apos;s about helping people feel confident,
+              empowered, and proud of who they are. I founded Quinha&apos;s Hair
+              Galaxy with a simple vision: to make beauty accessible while
+              delivering high-quality braiding services and hair care
+              solutions that leave every client feeling their best.
             </p>
             <p>
-              Alongside running my business, I have a background in Disability
-              and Rehabilitation Studies and aspire to work with professionals
-              in physiotherapy, speech therapy, and audiology, while continuing
-              to grow my beauty brand.
+              Every braid I create reflects my dedication to precision,
+              creativity, and professionalism. As a young entrepreneur, I&apos;m
+              committed to continuously learning and growing Quinha&apos;s Hair
+              Galaxy into a trusted beauty brand across Ghana and,
+              ultimately, Africa &mdash; including mentoring aspiring braiders
+              along the way.
             </p>
           </div>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
               { icon: Heart, label: "Made with care & love" },
-              { icon: Star, label: "Attention to every detail" },
-              { icon: GraduationCap, label: "Professional & trusted" },
+              { icon: Sparkles, label: "Precision in every braid" },
+              { icon: Globe2, label: "Growing across Africa" },
             ].map((item) => (
               <div
                 key={item.label}
@@ -66,8 +69,7 @@ export function About() {
           </div>
 
           <blockquote className="mt-8 border-l-4 border-gold pl-5 font-heading text-lg italic text-foreground">
-            &ldquo;To help every client leave feeling beautiful, confident, and
-            valued.&rdquo;
+            &ldquo;Where Beauty Becomes Universal.&rdquo;
           </blockquote>
         </div>
       </div>
