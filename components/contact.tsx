@@ -96,6 +96,16 @@ export function Contact() {
                 <Phone className="size-4" />
                 Chat on WhatsApp
               </a>
+              <p className="mt-5 text-xs leading-relaxed text-cream/60">
+                <span className="font-semibold text-cream/80">NB:</span>{" "}
+                Please select your preferred date and time when booking. Once
+                your appointment is confirmed, you are expected to attend as
+                scheduled. Cancellations should be made at least 24 hours in
+                advance. Failure to attend without prior notice will attract a
+                GHS 50.00 no-show fee. Please arrive on time. Clients who
+                arrive more than 15 minutes late may have their appointment
+                rescheduled or cancelled depending on availability.
+              </p>
             </div>
           </div>
         </div>
